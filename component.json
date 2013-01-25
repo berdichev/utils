@@ -1,0 +1,14 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "main": [
+    "./src/utils/log.coffee",
+    "./src/utils/plural.coffee",
+    "./src/utils/prevent.coffee",
+    "./src/utils/stop.coffee",
+    "./src/utils/trim.coffee"
+  ],
+  dependencies: {
+    "jquery": "*"
+  }
+}
