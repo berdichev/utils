@@ -8,7 +8,7 @@
     "./src/utils/stop.coffee",
     "./src/utils/trim.coffee"
   ],
-  dependencies: {
+  "dependencies": {
     "jquery": "*"
   }
 }
