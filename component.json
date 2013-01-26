@@ -10,6 +10,8 @@
     "./src/utils/trim.coffee"
   ],
   "dependencies": {
-    "jquery": "*"
+    "jquery": "*",
+    "underscore": "*",
+    "Backbone-Mediator": "*"
   }
 }
