@@ -9,7 +9,7 @@
 # @return [String] one of the string params in depend of number
 #
 @plural = (number, one, two, five, noone = no) ->
-  number is 0 and noone and (return noone)
+  return noone if number is 0 and _.isString(noone)
   number = Math.abs(number) % 100
   return five if number >= 5 and number <= 20
   number %= 10
